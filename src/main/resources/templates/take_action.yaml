@@ -1,0 +1,64 @@
+"TAKE_ACTION":
+  type: button
+  message:
+    title: "How You Can Take Action on Climate Change in Zimbabwe"
+    body: "Everyone can help fight climate change in Zimbabwe! Here's how:\n\n         
+          Reduce Your Carbon Footprint:\n
+          
+          - Use eco-friendly transport and maintain vehicles.
+          Opt for energy-efficient appliances and renewable energy.
+          Minimize waste by composting, recycling, and avoiding single-use plastics.
+          Support Climate-Friendly Initiatives:\n
+          
+          - Back local sustainable businesses.
+          Donate to green organizations and volunteer for eco-projects.
+          Advocate for Climate Action:\n
+          
+          - Spread awareness and share resources on social media.
+          Contact officials to push for climate-friendly policies.
+          Join protests and sign petitions for stronger climate action.\n
+          Remember: Every action matters. By making conscious choices and speaking out, you can inspire change!"
+    buttons:
+      - Local Resources
+      - Successful Actions
+  routes:
+    "local resources": LOCAL_RESOURCES
+    "successful actions": SUCCESSFUL_ACTIONS
+
+LOCAL_RESOURCES:
+  type: button
+  message:
+    title: "Local Resources for Climate Action"
+    body: "Get involved in climate action in Zimbabwe!\n\n
+        Government Agencies:\n        
+        Ministry of Environment (MECTHI): https://www.cbd.int/countries/profile?country=zw (Leads national efforts)\n
+        Environmental Management Agency (EMA): https://ema.co.zw/ (Regulates & promotes sustainability)\n\n
+        NGOs:\n       
+        Centre for Applied Research (CARED): https://www.crdzim.org.zw/ (Adaptation, agriculture & resource management)\n
+        Zimbabwe Environmental Lawyers Association (ZELA): https://zela.org/ (Advocacy & legal action)\n\n
+        More Resources:\n       
+        Organizations working on waste, renewable energy & reforestation can be found online for your specific area.
+        Keep exploring! This is just a starting point."
+    buttons:
+      - Return
+      - Main Menu
+  routes:
+    "return": "TAKE_ACTION"
+    "main menu": "MAIN_MENU"
+
+SUCCESSFUL_ACTIONS:
+  type: button
+  message:
+    title: "Successful Climate Action Examples in Zimbabwe"
+    body: "Despite challenges, Zimbabweans are taking action!\n\n
+      \n- Community projects: Locals manage resources sustainably, protecting wildlife and promoting reforestation.
+      \n- Renewable energy: Solar power is on the rise, bringing electricity to rural areas and improving farming practices.
+      \n- Greener cities: Urban areas plant trees, create community gardens, and fight heat island effects.
+      \n- Climate-smart agriculture: Farmers adopt techniques to improve soil health, use drought-resistant crops, and adapt to changing weather.
+      \n- Youth power: Young people raise awareness, advocate for change, and promote environmental responsibility"
+    buttons:
+        - Return
+        - Main Menu
+  routes:
+    "return": "TAKE_ACTION"
+    "main menu": "KNOWLEDGE_PLATFORM_MAIN_MENU"

@@ -1,11 +1,24 @@
+#"MAIN_MENU":
+#  type: button
+#  message:
+#    title: Greetings
+#    body: "Hi there.\nI am JAWCE, your ERP booking assistant 🤖.\n\nWhat would you like to do today?"
+#    buttons:
+#      - Book Demo
+#      - Help
+#  routes:
+#    "book demo": "BOOK_STAGE"
+#    "help": "HELP_MENU"
+
 "MAIN_MENU":
   type: button
   message:
-    title: Greetings
-    body: "Hi there.\nI am JAWCE, your ERP booking assistant 🤖.\n\nWhat would you like to do today?"
+    title: "SNV KNOWLEDGE PLATFORM"
+    body: "Welcome to the Climate Action Knowledge Hub! 🌍 Empowering youth, women, and people with disabilities in Zimbabwe to take action on climate change. How can we assist you today?"
     buttons:
-      - Book Demo
-      - Help
+      - About Climate Change
+      - Take Action
+
   routes:
-    "book demo": "BOOK_STAGE"
-    "help": "HELP_MENU"
+    "about climate change": "ABOUT_CLIMATE_CHANGE"
+    "take action": "TAKE_ACTION"

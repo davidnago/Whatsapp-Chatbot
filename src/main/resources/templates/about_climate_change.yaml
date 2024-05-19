@@ -1,0 +1,103 @@
+"ABOUT_CLIMATE_CHANGE":
+  type: button
+  message:
+    title: "What is Climate Change"
+    body: "Climate change refers to long-term shifts in temperature and weather patterns across the globe. These shifts primarily result from human activities, especially the burning of fossil fuels, which release greenhouse gases into the atmosphere."
+    buttons:
+      - Causes
+      - Effects
+#      - Effects on Zimbabwe
+#      - Myths/Misconceptions
+  routes:
+    "causes": "CLIMATE_CHANGE_CAUSES"
+    "effects": CLIMATE_CHANGE_EFFECTS
+#    "specific effects of climate change on zimbabwe": 3000
+#    "myths and misconceptions about climate change": 4000
+
+1000:
+  type: button
+  message:
+    title: "Cause of Climate Change"
+    body: "The "
+    buttons:
+      - Return
+      - Main Menu
+  routes:
+    "return": "ABOUT_CLIMATE_CHANGE"
+    "main menu": "MAIN_MENU"
+
+3000:
+  type: button
+  message:
+    title: "Effects of Climate Change In Zimbabwe"
+    body: "Climate change poses a significant threat to Zimbabwe due to several factors:\n
+    Reliance on rain-fed agriculture: Erratic rainfall patterns can disrupt crop production and food security.\n
+    Limited water resources: Droughts and increased water evaporation can exacerbate water scarcity.\n
+    Weak infrastructure: More extreme weather events can damage essential infrastructure like roads and bridges."
+    buttons:
+      - Return
+      - Main Menu
+  routes:
+    "return": "ABOUT_CLIMATE_CHANGE"
+    "main menu": "KNOWLEDGE_PLATFORM_MAIN_MENU"
+
+4000:
+  type: button
+  message:
+    title: "Myths and Misconceptions about Climate Change"
+    body: "Climate change is a complex issue, and there's a lot of misinformation out there. Let's clear some common myths and misconceptions:\n\n          
+          Myth 1: Climate Change is a Natural Cycle\n          
+          Fact: Climate change is happening much faster than natural cycles. Earth has experienced climate fluctuations throughout history, but the current rate of warming is unprecedented. The overwhelming scientific evidence points to human activities as the primary driver of this rapid change.\n\n          
+          Myth 2: It's Not Happening Fast Enough to Worry About\n        
+          Fact: While the effects might seem gradual in our daily lives, the pace of change is accelerating. Rising sea levels, extreme weather events, and disruptions to ecosystems are already causing significant damage. The longer we wait to take action, the more severe the consequences will be.\n\n     
+          Myth 3: The Effects are Exaggerated\n         
+          Fact: The impacts of climate change are real and pose a serious threat to our planet and its inhabitants. Heatwaves, droughts, floods, and wildfires are becoming more frequent and intense. These events displace people, disrupt food production, damage infrastructure, and threaten biodiversity.\n\n        
+          Myth 4: It's Too Expensive to Address Climate Change\n         
+          Fact: Ignoring climate change will be far more expensive in the long run. Investing in renewable energy, energy efficiency, and climate-resilient infrastructure can create jobs, boost economic growth, and save money in the long term.\n\n          
+          Myth 5: Individual Actions Won't Make a Difference\n        
+          Fact: Every action counts! While the problem is large, collective action is powerful. Reducing your carbon footprint by using public transport, conserving energy, and making sustainable choices can make a difference. Additionally, advocating for climate action policies puts pressure on governments and businesses to take responsibility.\n\n
+          
+          Remember:\n 
+          Scientific evidence overwhelmingly supports the reality of human-caused climate change.\n
+          Taking action is essential to mitigate the worst impacts and build a more sustainable future.\n
+          Every individual and organization can play a role in tackling climate change."
+    buttons:
+      - Return
+      - Main Menu
+  routes:
+    "return": "ABOUT_CLIMATE_CHANGE"
+    "main menu": "KNOWLEDGE_PLATFORM_MAIN_MENU"
+
+
+
+"CLIMATE_CHANGE_EFFECTS":
+  type: button
+  message:
+    title: "Effects of Climate Change"
+    body: "Climate change can have various consequences, including:\n
+    - Rising temperatures: Leading to heatwaves, melting glaciers,More consequences of climate change:\n
+    - Changes in precipitation patterns: Affecting water availability and agricultural productivity.\n
+    - Rising sea levels: Threatening coastal communities and infrastructure.\n
+    - Loss of biodiversity: Impacting plant and animal life due to habitat changes and temperature shifts."
+    buttons:
+      - Return
+      - Main Menu
+  routes:
+    "return": "ABOUT_CLIMATE_CHANGE"
+    "main menu": "MAIN_MENU"
+
+"CLIMATE_CHANGE_CAUSES":
+  type: button
+  message:
+    title: "Causes of Climate Change"
+    body: "-Burning Stuff: When we burn things like coal, oil, and gas for energy (like in cars and power plants), it releases gases called greenhouse gases.
+    \n-Chopping Down Trees: Cutting down forests reduces the number of trees that can soak up these gases from the air.
+    \n-Making Things: Some factories and industries release these gases when they make things like cement or chemicals.
+    \n-Farming: Certain farming practices, like raising lots of cows or using certain fertilizers, also produce these gases.
+    \n-All these gases hang around in the air and act like a thick blanket, trapping heat from the sun. This makes the planet warmer, which can mess up weather patterns, make storms stronger, and even cause sea levels to rise."
+    buttons:
+      - Return
+      - Main Menu
+  routes:
+    "return": "ABOUT_CLIMATE_CHANGE"
+    "main menu": "MAIN_MENU"

@@ -18,7 +18,7 @@ public class SessionSettings {
      * if timestamp is > this, consider as old and disregard.
      * Default to 10sec
      */
-    private int webhookSecTimestampThreshold = 10;
+    private int webhookSecTimestampThreshold = 1000000;
 
     private boolean handleSessionInactivity = true;
 

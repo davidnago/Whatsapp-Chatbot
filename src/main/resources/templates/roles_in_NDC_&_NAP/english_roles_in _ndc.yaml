@@ -1,0 +1,57 @@
+"ROLES_IN_NDC_NAP_ENG":
+  type: list
+  prop: roles_in_ndc_nap
+  message:
+    title: "Roles in NDC & NAP"
+    body: "Understand the roles of groups in Zimbabwe's NDCs and NAP. Please select a group from the list below"
+    button: "Select"
+    sections:
+      "English Menu Options":
+        0:
+          title: Women
+          description: Learn about the role of Women
+        1:
+          title: Children & Youth
+          description: Learn about the role of Children & Youth
+        2:
+          title: People with Disabilities
+          description: Learn about the role of People with Disabilities
+        3:
+          title: Main Menu
+          description: Return to the main menu
+
+  routes:
+    0: "WOMEN_ENG"
+    1: "CHILDREN_AND_YOUTH_ENG"
+    2: "PEOPLE_WITH_DISABILITIES_ENG"
+    3: "MAIN_MENU_ENG"
+
+"WOMEN_ENG":
+  type: button
+  message:
+    title: "Women's Role in NDC/NAP"
+    body: "Women play a crucial role in climate action, especially in Zimbabwe, where they are primary providers of food, water, and energy. Their inclusion in decision-making processes can lead to more effective and equitable climate solutions. Empowering women with education and resources helps build resilience. They can be decision-makers, innovators, educators, researchers, and caretakers. Women can develop climate-smart agricultural practices, promote clean energy, and educate communities. Ensuring women's participation in climate policy enhances outcomes. Promoting women in leadership roles in the energy sector addresses gender imbalances and inspires future generations."
+    buttons:
+      - Return
+  routes:
+    "return": ROLES_IN_NDC_NAP_ENG
+
+"CHILDREN_AND_YOUTH_ENG":
+  type: button
+  message:
+    title: "Children & Youth"
+    body: "Youth play a powerful role in driving climate action, especially in Zimbabwe. Their involvement is crucial for implementing the National Determined Contributions (NDCs) and the National Adaptation Plan. Youth can participate in environmental conservation activities such as tree planting, waste management, and clean-up campaigns. They can advocate for sustainable policies by engaging with policymakers to support renewable energy and sustainable agriculture. Youth are also vital in research and innovation, developing new technologies and practices to reduce greenhouse gas emissions. Additionally, they can raise awareness about climate change impacts and the need for action among their peers and communities.However, youth face challenges in accessing education, training, financial resources, and job opportunities. Financial institutions should support youth-led climate projects, and efforts must be made to improve youth access to job opportunities and professional networks."
+    buttons:
+      - Return
+  routes:
+    "return": ROLES_IN_NDC_NAP_ENG
+
+"PEOPLE_WITH_DISABILITIES_ENG":
+  type: button
+  message:
+    title: "People with Disabilities"
+    body: "People with disabilities (PWDs) play a crucial role in Zimbabwe's climate change management and the implementation of Nationally Determined Contributions (NDCs). Their inclusion ensures that their unique needs are considered. PWDs can advocate for their inclusion in climate policies, raise awareness about their challenges, and share their innovative perspectives for climate solutions. They can also participate in implementing climate programs and contribute to monitoring and evaluating their effectiveness.PWDs face unique challenges during natural disasters, including barriers to accessing emergency services, transportation, communication, and physical accessibility. Emergency services must be inclusive, offering accessible information, communication tools, transportation, and facilities with accommodations like wheelchair ramps and accessible restrooms. PWDs are often among the most vulnerable during disasters and need additional support to recover. "
+    buttons:
+      - Return
+  routes:
+    "return": ROLES_IN_NDC_NAP_ENG

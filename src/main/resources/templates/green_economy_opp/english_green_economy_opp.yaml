@@ -1,0 +1,14 @@
+"GREEN_ECONOMY_OPPS_ENG":
+  type: button
+  message:
+    title: "Green Economy Opps"
+    body: "Unlocking Opportunities in the Green Economy\n\n
+    Discover how the green economy offers diverse pathways for youth, women, and persons with disabilities:\n
+    - Youth: Embrace careers in renewable energy, sustainable agriculture, and eco-tourism. Gain skills in green technology, conservation, and environmental education.\n
+    - Women: Lead in eco-entrepreneurship ventures such as organic farming, sustainable fashion, and eco-friendly product manufacturing. Engage in conservation projects, community gardening initiatives, and green business management.\n
+    - Persons with Disabilities: Drive innovation in green technology solutions, accessible eco-tourism experiences, and inclusive urban planning. Contribute to eco-friendly transportation services, renewable energy research, and environmental advocacy.\n
+    By tapping into these opportunities, we can build a thriving, inclusive, and resilient green economy for all.    "
+    buttons:
+      - Return
+  routes:
+    "return": ENGLISH_MENU

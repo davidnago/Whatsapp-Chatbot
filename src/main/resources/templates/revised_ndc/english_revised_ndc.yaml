@@ -1,0 +1,16 @@
+"ZIMBABWE_NDC_ENG":
+  type: button
+  message:
+    title: "Zimbabwe's NDC"
+    body: "What are NDCs?\n\n
+    NDCs are national climate plans that outline a country's goals for reducing greenhouse gas emissions and adapting to climate change. Zimbabwe's NDC includes targets for reducing emissions, increasing renewable energy, and enhancing climate resilience
+    . The NDC is a key tool for achieving the goals of the Paris Agreement and addressing climate change.\n\n 
+    Revised NDC\n
+    Zimbabwe is committed to playing its part in tackling climate change. Our recently revised NDCs reflect a significant increase in ambition compared to our previous submission.\n
+    1st NDC (2015): Targeted a 33% reduction in greenhouse gas emissions, with a focus on the energy sector.\n
+    Current NDC: Sets a more ambitious target of a 40% reduction in greenhouse gas emissions across the entire economy.\n
+    This demonstrates Zimbabwe's dedication to reducing its carbon footprint and building a more sustainable future."
+    buttons:
+      - Return
+  routes:
+    "return": ENGLISH_MENU

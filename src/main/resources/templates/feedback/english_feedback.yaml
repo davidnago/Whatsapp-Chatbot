@@ -1,0 +1,10 @@
+"FEEDBACK_RESOURCES_ENG":
+  type: button
+  message:
+    title: "Feedback & Resources"
+    body: " For feedback on our initiatives or to share your thoughts, please visit https://cybersecdigital.com/contact.html. We value your input and strive to continuously improve our services.\n
+  For valuable resources and educational materials, explore https://cybersecdigital.com/education.html. Whether you're seeking Climate change insights, educational content, or professional development opportunities, you'll find useful resources to enhance your knowledge and skills."
+    buttons:
+      - Return
+  routes:
+    "return": ENGLISH_MENU

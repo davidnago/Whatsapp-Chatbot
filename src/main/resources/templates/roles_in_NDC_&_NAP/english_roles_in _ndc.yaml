@@ -24,7 +24,7 @@
     0: "WOMEN_ENG"
     1: "CHILDREN_AND_YOUTH_ENG"
     2: "PEOPLE_WITH_DISABILITIES_ENG"
-    3: "MAIN_MENU_ENG"
+    3: "ENGLISH_MENU"
 
 "WOMEN_ENG":
   type: button

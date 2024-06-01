@@ -10,15 +10,31 @@
 #    "book demo": "BOOK_STAGE"
 #    "help": "HELP_MENU"
 
+#"MAIN_MENU":
+#  type: button
+#  message:
+#    title: "SNV KNOWLEDGE PLATFORM"
+#    body: "Welcome to the Climate Action Knowledge Hub! 🌍 Empowering youth, women, and people with disabilities in Zimbabwe to take action on climate change. How can we assist you today?"
+#    buttons:
+#      - About Climate Change
+#      - Take Action
+#
+#  routes:
+#    "about climate change": "ABOUT_CLIMATE_CHANGE"
+#    "take action": "TAKE_ACTION"
+
+
 "MAIN_MENU":
   type: button
   message:
     title: "SNV KNOWLEDGE PLATFORM"
-    body: "Welcome to the Climate Action Knowledge Hub! 🌍 Empowering youth, women, and people with disabilities in Zimbabwe to take action on climate change. How can we assist you today?"
+    body: "Welcome to the Climate🌍 Action Chatbot! Let’s explore how you can contribute to Zimbabwe’s Climate Change Action. Start by picking a language you would like to use"
     buttons:
-      - About Climate Change
-      - Take Action
+      - English
+      - Shona
+      - Ndebele
 
   routes:
-    "about climate change": "ABOUT_CLIMATE_CHANGE"
-    "take action": "TAKE_ACTION"
+    "english": "ENGLISH_MENU"
+    "shona": "SHONA_MENU"
+    "ndebele": "NDEBELE_MENU"

@@ -1,0 +1,15 @@
+"INVOLVING_KEY_GROUPS_ENG":
+  type: button
+  message:
+    title: "Engaging Groups"
+    body: "Engaging Youth, Women, and Persons with Disabilities in Climate Action: A Zimbabwean Perspective\n\n
+   In Zimbabwe, empowering youth, women, and persons with disabilities in climate action is vital for sustainable development. Here are actionable steps to involve them:\n
+    - Reduce Energy Consumption: Switch to energy-efficient bulbs, unplug devices, and use renewable energy where possible.\n
+    - Tree Planting and Restoration: Organize tree planting events to mitigate climate change and support local ecosystems.\n
+    - Advocate for Climate Policies: Join youth-led movements, engage in governance, and lobby for sustainable policies.\n
+    - Support Sustainable Livelihoods: Encourage eco-friendly businesses like organic farming and renewable energy initiatives.\n\n
+    Small actions count: bike instead of drive, recycle, and support local eco-friendly businesses. Together, let's build a resilient future."
+    buttons:
+      - Return
+  routes:
+    "return": ENGLISH_MENU

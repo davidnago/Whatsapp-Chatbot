@@ -1,0 +1,35 @@
+"ENGLISH_MENU":
+  type: list
+  prop: english_menu
+  message:
+    title: "Main Menu"
+    body: "Thank you for selecting a language. Please select a topic from the list below"
+    button: "Select"
+    sections:
+      "English Menu Options":
+        0:
+          title: Learn on Climate Change
+          description: Learn about the causes and effects of climate change in Zimbabwe
+        1:
+          title: Zimbabwe NDC
+          description: Learn what NDCs are and Zimbabwe's plans to reduce greenhouse gases
+        2:
+          title: Roles in NDC & NAP
+          description: Understand the roles of groups in Zimbabwe's NDCs and NAP
+        3:
+          title: Involving Key Groups
+          description: Learn how to involve key groups in climate action in Zimbabwe
+        4:
+          title: Green Economy Opps
+          description: Learn about opportunities for these groups in the green economy
+        5:
+          title: Quizzes & Challenges
+          description: Test your knowledge on climate change and win prizes
+        6:
+          title: Feedback & Resources
+          description: Give feedback and access climate change resources
+  routes:
+    0: "UNDERSTAND_CLIMATE_CHANGE_ENG"
+    1: "ZIMBABWE_NDC_ENG"
+    2: "ROLES_IN_NDC_NAP_ENG"
+

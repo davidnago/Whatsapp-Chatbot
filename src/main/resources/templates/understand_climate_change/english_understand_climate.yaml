@@ -1,0 +1,137 @@
+"UNDERSTAND_CLIMATE_CHANGE_ENG":
+  type: list
+  prop: case_studies_eng
+  message:
+    title: "Learn about climate change"
+    body: "Please select a topic from the options below"
+    button: "Select"
+    sections:
+      "English Menu Options":
+        0:
+          title: Causes
+          description: Learn about the causes of climate change in Zimbabwe
+        1:
+          title: Impact on Zimbabwe
+          description: Learn about the impact of climate change in Zimbabwe
+        3:
+          title: Case Studies
+          description: Learn about case studies of climate change in Zimbabwe
+        4:
+          title: Main Menu
+          description: Return to the main menu
+
+  routes:
+    0: "CAUSES_ENG"
+    1: "IMPACT_ON_ZIMBABWE_ENG"
+    3: "CASE_STUDIES_ENG"
+    4: "ENGLISH_MENU"
+
+
+"CAUSES_ENG":
+  type: button
+  message:
+    title: "Causes of Climate Change"
+    body: "Climate change is a pressing issue driven by human activities like burning fossil fuels and deforestation, leading to higher greenhouse gas emissions, global warming, and climate change. Weather describes the atmosphere at a specific time, while climate is the average over 30 years. Climate change includes alterations due to natural or human actions. Mitigation reduces or enhances greenhouse gas sources and sinks, while adaptation adjusts systems to moderate harm or exploit opportunities. Resilience is the ability of systems to absorb disturbances while maintaining functions. Understanding these concepts is key to combating climate change."
+    buttons:
+      - Return
+  routes:
+    "return": UNDERSTAND_CLIMATE_CHANGE_ENG
+
+"IMPACT_ON_ZIMBABWE_ENG":
+  type: button
+  message:
+    title: "Impact on Zimbabwe"
+    body: "ENVIRONMENTAL IMPACTS:\n
+    - Changes in weather patterns\n
+    - Increased frequency and severity of extreme weather events\n
+    - Changes in growing seasons and regions\n
+    - Changes in water quality and quantity\n
+    - Changes in species distribution and abundance\n
+    - Rising minimum and maximum temperatures\n
+    - Increased risk of diseases\n\n
+    SOCIO-ECONOMIC RESOURCESAND SECTORS AFFECTED:\n
+    - Water resources\n
+    - Agriculture and forestry\n
+    - Food security\n
+    - Human health\n
+    - Infrastructure (e.g. transport, built environment)\n
+    - Settlements: displacement of inhabitants and loss of livelihood\n
+    - Industry and energy\n
+    - Disaster response and recovery (DRR)"
+    buttons:
+      - Return
+  routes:
+    "return": UNDERSTAND_CLIMATE_CHANGE_ENG
+
+"CASE_STUDIES_ENG":
+  type: list
+  prop: case_studies_eng
+  message:
+    title: "Please Select a Case Study"
+    body: "Please select a case study from the list below"
+    button: "Select"
+    sections:
+      "English Menu Options":
+        0:
+          title: Cyclone IDAI
+          description: Learn about the impacts of Cyclone IDAI in Zimbabwe
+        1:
+          title: Elnino induced droughts
+          description: Learn about the impacts of Elnino induced droughts in Zimbabwe
+        3:
+          title: Return
+          description: Return to the previous menu
+
+  routes:
+    0: "CYCLONE_IDAI_ENG"
+    1: "ELNINO_INDUCED_DROUGHTS_ENG"
+    3: "UNDERSTAND_CLIMATE_CHANGE_ENG"
+
+"CYCLONE_IDAI_ENG":
+  type: button
+  message:
+    title: "Cyclone IDAI"
+    body: "Case Study: Cyclone Idai - Devastation in Mozambique, Malawi, Zimbabwe\n\n
+    March 2019: Cyclone Idai, a powerful tropical storm, made landfall in Mozambique, wreaking havoc across Mozambique, Malawi, and Zimbabwe.\n\n
+    Impact:\n
+    - Deaths: Over 1,300 lives lost.\n
+    - Destruction: Homes, infrastructure, and crops devastated by floods and landslides.\n
+    - Millions Affected: Millions left homeless, facing food insecurity and disease outbreaks\n\n
+    Causes:\n
+    - Warm sea surface temperatures fueled the storm's intensity.\n
+    - Deforestation exacerbated flooding and landslides.\n\n
+    Response:\n
+    - International aid efforts provided emergency relief and reconstruction support.\n\n
+    Lessons Learned:\n
+    - Need for stronger disaster risk management & climate adaptation strategies.\n
+    - Importance of early warning systems and community preparedness.\n
+    - Building resilience in vulnerable communities.\n\n
+    
+    Cyclone Idai serves as a stark reminder of the human cost of climate change and the importance of preparedness."
+    buttons:
+      - Return
+  routes:
+    "return": CASE_STUDIES_ENG
+
+"ELNINO_INDUCED_DROUGHTS_ENG":
+  type: button
+  message:
+    title: "Elnino Induced Droughts"
+    body: "El Niño's Grip: Droughts Ravage Southern Africa\n\n
+    Impact:\n
+    - Reduced Rainfall: Crops fail, leading to food insecurity and malnutrition\n
+    - Water Scarcity: Limited access to clean water for drinking and sanitation.\n
+    - Economic Strain: Loss of livelihoods and agricultural production.\n\n
+    Causes:\n
+    - El Niño's Warm Embrace: Pacific warming disrupts global weather patterns, causing drier conditions in Zimbabwe.\n
+    - Shifting Rainfall Patterns: Less moisture reaches Eastern and Southern Africa, leading to droughts.\n
+    - Higher Temperatures: Increased evaporation further dries out the soil.\n\n
+    Lessons Learned:\n
+    - Need for stronger disaster risk management & climate adaptation strategies.\n
+    - Importance of early warning systems and community preparedness.\n
+    - Building resilience in vulnerable communities.\n\n  
+    Zimbabwe's El Niño droughts highlight the need for climate adaptation, focusing on water security and resilient agriculture to ensure food security and support rural livelihoods."
+    buttons:
+      - Return
+  routes:
+    "return": CASE_STUDIES_ENG

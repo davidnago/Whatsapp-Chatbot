@@ -44,7 +44,7 @@
     buttons:
       - Buyela
   routes:
-    "return": ROLES_IN_NDC_NAP_NDE
+    "buyela": ROLES_IN_NDC_NAP_NDE
 
 "PEOPLE_WITH_DISABILITIES_NDE":
   type: button
@@ -54,4 +54,4 @@
     buttons:
       - Buyela
   routes:
-    "return": ROLES_IN_NDC_NAP_NDE
+    "buyela": ROLES_IN_NDC_NAP_NDE

@@ -35,7 +35,7 @@
     buttons:
       - Dzokera
   routes:
-    "return": UNDERSTAND_CLIMATE_CHANGE_SHO
+    "dzokera": UNDERSTAND_CLIMATE_CHANGE_SHO
 
 "IMPACT_ON_ZIMBABWE_SHO":
   type: button
@@ -61,7 +61,7 @@
     buttons:
       - Dzokera
   routes:
-    "return": UNDERSTAND_CLIMATE_CHANGE_SHO
+    "dzokera": UNDERSTAND_CLIMATE_CHANGE_SHO
 
 "CASE_STUDIES_SHO":
   type: list

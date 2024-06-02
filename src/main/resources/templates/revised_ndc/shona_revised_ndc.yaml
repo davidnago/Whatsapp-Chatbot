@@ -1,0 +1,16 @@
+"ZIMBABWE_NDC_SHO":
+  type: button
+  message:
+    title: "maNDC eZimbabwe"
+    body: "Chii chinonzi NDCs?\n\n
+    NDCs zvirongwa zvemamiriro ekunze enyika zvinotaridza zvinangwa zvenyika zvekuderedza kuburitswa kwegasi rinopisa uye kugadzirisa kusanduka kwemamiriro ekunze. NDC yemuZimbabwe ine zvisungo zvekuderedza kupiswa kwemhepo, kuwedzera simba remagetsi, pamwe nekusimudzira kugadzikana kwemamiriro ekunze.
+    . NDC chishandiso chakakosha pakuzadzisa zvinangwa zveChibvumirano cheParis uye kugadzirisa kushanduka kwemamiriro ekunze.\n\n 
+    Yakadzokororwa NDC\n
+    Zimbabwe yakazvipira kuita chikamu chayo mukurwisa kusanduka kwemamiriro ekunze. MaNDC edu akagadziridzwa nguva pfupi yadarika anoratidza kuwedzera kukuru kwevavariro zvichienzaniswa nezvatakambotumira.\n
+    1st NDC (2015): Yakanangwa kudzikiswa kwe33% mukuburitswa kwegasi regreenhouse, nekutarisa kuchikamu chesimba.\n
+    NDC Yazvino: Inoisa chinangwa chakanyanya chekudzikisa kuburitswa kwegasi regreenhouse ne40% muhupfumi hwese.\n
+    Izvi zvinoratidza kuzvipira kweZimbabwe mukudzikisa huwandu hwayo hwekabhoni pamwe nekuvaka remangwana rakanaka."
+    buttons:
+      - Dzokera
+  routes:
+    "dzokera": SHONA_MENU

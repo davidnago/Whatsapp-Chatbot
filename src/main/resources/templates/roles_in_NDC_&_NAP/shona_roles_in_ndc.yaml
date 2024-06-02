@@ -1,0 +1,57 @@
+"ROLES_IN_NDC_NAP_SHO":
+  type: list
+  prop: roles_in_ndc_nap_sho
+  message:
+    title: "Mabasa muNDC neNAP"
+    body: "Nzwisisa mabasa emapoka muZimbabwe NDCs neNAP. Sarudza boka kubva pane zviri pasi apa"
+    button: "Sarudza"
+    sections:
+      "Shona Menu Options":
+        0:
+          title: Vakadzi
+          description: Dzidza nezvebasa reVakadzi muNDC/NAP
+        1:
+          title: Vana & Vechidiki
+          description: Dzidza nezve basa reVana & Vechidiki muNDC/NAP
+        2:
+          title: Vanhu Vakaremara
+          description: Dzidza nezve basa reVanhu Vakaremara muNDC/NAP
+        3:
+          title: Menyu huru
+          description: Dzokera kumenyu huru
+
+  routes:
+    0: "WOMEN_SHO"
+    1: "CHILDREN_AND_YOUTH_SHO"
+    2: "PEOPLE_WITH_DISABILITIES_SHO"
+    3: "SHONA_MENU"
+
+"WOMEN_SHO":
+  type: button
+  message:
+    title: "Basa revakadzi muNDC/NAP"
+    body: "Vanhukadzi vanoita basa rakakosha munyaya dzemamiriro ekunze, kunyanya muZimbabwe, uko vanonyanya kuwanisa chikafu, mvura, uye simba. Kubatanidzwa kwavo mukuita sarudzo kunogona kutungamirira kune dzimwe nzira dzinoshanda uye dzakaenzana dzemamiriro ekunze. Kupa vakadzi simba nedzidzo uye zvekushandisa kunobatsira kuvaka kusimba. Vanogona kuve vanoita sarudzo, vagadziri, vadzidzisi, vaongorori, uye vanochengeta. Vanhukadzi vanokwanisa kukudziridza tsika dzekurima dzinoenderana nemamiriro ekunze, kukurudzira simba rakachena, nekudzidzisa nharaunda. Kuona kutora chikamu kwevakadzi mumutemo wemamiriro ekunze kunosimudzira zvinobuda. Kusimudzira vakadzi muzvinzvimbo zveutungamiri muchikamu chemagetsi kunogadzirisa kusaenzana kwevakadzi uye zvinokurudzira zvizvarwa zvinotevera."
+    buttons:
+      - Dzokera
+  routes:
+    "dzokera": ROLES_IN_NDC_NAP_SHO
+
+"CHILDREN_AND_YOUTH_SHO":
+  type: button
+  message:
+    title: "Vana & Vechidiki"
+    body: "Vechidiki vanoita basa guru mukusimudzira mamiriro ekunze, zvikuru muZimbabwe. Kubatanidzwa kwavo kwakakosha mukuita hurongwa hweNational Determined Contributions (NDCs) neNational Adaptation Plan. Vechidiki vanogona kutora chikamu mumabasa ekuchengetedza nharaunda sekudyara miti, kutambisa tsvina, uye mishandirapamwe yekuchenesa. Vanogona kutsigira marongero akasimba kuburikidza nekubatana nevagadziri vemitemo kuti vatsigire simba rinodzokororwa uye kurima kwakasimba. Vechidiki vakakoshawo mukutsvaga nekuvandudza, kugadzira matekinoroji matsva nemaitiro ekudzikisa kuburitswa kwegasi regreenhouse. Uyezve, vanogona kusimudzira ruzivo pamusoro pezvinokonzeresa kushanduka kwemamiriro ekunze uye kudiwa kwechiito pakati pevezera ravo nenharaunda.Zvisinei, vechidiki vanosangana nematambudziko mukuwana dzidzo, kudzidziswa, zviwanikwa zvemari, uye mikana yebasa"
+    buttons:
+      - Dzokera
+  routes:
+    "dzokera": ROLES_IN_NDC_NAP_SHO
+
+"PEOPLE_WITH_DISABILITIES_SHO":
+  type: button
+  message:
+    title: "Vanhu Vakaremara"
+    body: "Vanhu vane hurema (PWDs) vanoita basa rakakosha zvikuru mukugadzirisa kushanduka kwemamiriro ekunze muZimbabwe pamwe nekuzadzikiswa kwechirongwa cheNationally Determined Contributions (NDCs). Kubatanidzwa kwavo kunovimbisa kuti zvavanoda zvakasiyana zvinotariswa. PWDs vanogona kutsigira kubatanidzwa kwavo mumitemo yemamiriro ekunze, kusimudzira ruzivo nezvematambudziko avo, uye kugovera maonero avo matsva ekugadzirisa mamiriro ekunze. Vanogonawo kutora chikamu mukuita zvirongwa zvemamiriro ekunze uye kubatsira pakuongorora nekuongorora kushanda kwavo.PWDs inotarisana nematambudziko akasiyana-siyana panguva dzenjodzi dzinongoitika dzoga, kusanganisira zvipingamupinyi zvekuwana rubatsiro rwekukurumidzira, kutakura, kutaurirana, uye kuwanikwa kwemuviri. "
+    buttons:
+      - Dzokera
+  routes:
+    "dzokera": ROLES_IN_NDC_NAP_SHO

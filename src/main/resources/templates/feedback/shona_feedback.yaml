@@ -1,0 +1,10 @@
+"FEEDBACK_RESOURCES_SHO":
+  type: button
+  message:
+    title: "Zvinhu zveKushandisa"
+    body: "Kuti uwane mhinduro pamatanho edu kana kugovera zvaunofunga, ndapota shanya https://cybersecdigital.com/contact.html. Tinokoshesa zvaunotaura uye tinoedza kuramba tichivandudza masevhisi edu.\n
+  Kuti uwane zviwanikwa zvakakosha uye zvekudzidzisa, tsvaga https://cybersecdigital.com/education.html. Kunyangwe iwe uchitsvaga ruzivo rwekuchinja kweMamiriro ekunze, zvemukati zvedzidzo, kana mikana yekuvandudza nyanzvi, uchawana zviwanikwa zvinobatsira kuwedzera ruzivo nehunyanzvi hwako."
+    buttons:
+      - Dzokera
+  routes:
+    "dzokera": SHONA_MENU

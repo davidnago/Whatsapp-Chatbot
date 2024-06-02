@@ -1,0 +1,15 @@
+"INVOLVING_KEY_GROUPS_SHO":
+  type: button
+  message:
+    title: "Mapoka Akakosha"
+    body: "Kubatanidza Vechidiki, Vakadzi, uye Vanhu Vakaremara mukuita zvemamiriro ekunze: Maonero emuZimbabwe\n\n
+   MuZimbabwe, kupa masimba kune vechidiki, madzimai nevakaremara munyaya dzemamiriro ekunze kwakakosha zvikuru kuti budiriro ienderere mberi. Heano matanho ekuti vabatanidze:\n
+    - Deredza Kushandisa Magetsi: Chinja kune magirobhu anoshanda nesimba, bvisa plug midziyo, uye shandisa simba rinogoneka pazvinogoneka.\n
+    - Kudyara Miti uye Kudzoreredza: Ronga zviitiko zvekusima miti kuderedza kushanduka kwemamiriro ekunze uye kutsigira ecosystem.\n
+    - Advocate for Climate Policies: Joinha masangano anotungamirwa nevechidiki, pinda muutongi, uye tsvaga mitemo inoenderera mberi.\n
+    - Tsigira Hupenyu Hwakasimba: Kurudzirai mabhizinesi anoenderana nemamiriro ekunze sekurima organic uye zvirongwa zvesimba rinogoneka.\n\n
+    Zviito zvidiki zvinoverengerwa: bhasikoro pachinzvimbo chekutyaira, kudzokorodza, uye kutsigira emuno eco-ane hushamwari mabhizinesi. Tose ngativake remangwana rakasimba."
+    buttons:
+      - Dzokera
+  routes:
+    "dzokera": SHONA_MENU

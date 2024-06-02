@@ -1,0 +1,16 @@
+"GREEN_ECONOMY_OPPS_SHO":
+  type: button
+  message:
+    title: "Mikakana yeGreen Economy"
+    body: "Kuvhura Mikana muGreen Economy\n\n
+      Ziva kuti hupfumi hwakasvibira hunopa sei nzira dzakasiyana dzevechidiki, vakadzi, uye vanhu vakaremara:\n
+      - Vechidiki: Gamuchira mabasa musimba rinodzokororwa, kurima kwakasimba, uye eco-tourism. Wana hunyanzvi muhunyanzvi hwegreen, kuchengetedza, uye dzidzo yezvakatipoteredza.\n
+      - Vakadzi: Tungamira mune eco-entrepreneurship ventures sekurima organic, fashoni inoenderera, uye eco-inoshamwaridzika zvigadzirwa kugadzira. Batanidza muzvirongwa zvekuchengetedza, zvirongwa zvekurima gadheni munharaunda, uye manejimendi ebhizinesi rakasvibirira.\n
+      - Vanhu Vakaremara: Dhiraivha hunyanzvi mune yakasvibira tekinoroji mhinduro, inowanikwa eco-kushanya zviitiko, uye inosanganisirwa kuronga kwemadhorobha. Batsira kune eco-friendly transportation services, renewable simba retsvagiridzo, uye kurudziro yezvakatipoteredza.\n
+      Nekupinda mune iyi mikana, tinogona kuvaka hupfumi hwakasvibira huri kusimukira, hunosanganisirwa, uye hwakasimba kune vese."
+    buttons:
+      - Dzokera
+  routes:
+    "dzokera": SHONA_MENU
+
+

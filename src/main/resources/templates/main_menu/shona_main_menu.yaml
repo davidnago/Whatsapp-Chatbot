@@ -1,0 +1,43 @@
+"SHONA_MENU":
+  type: list
+  prop: shona_menu
+  message:
+    title: "Menyu Huru"
+    body: "Waita basa nekusarudza mutauro. Ndapota sarudza musoro kubva pane zviri pasi apa"
+    button: "Sarudza "
+    sections:
+      "Shona Menu Options":
+        0:
+          title: Mamiriro ekunze
+          description: Dzidza nezveKuchinja Kwemamiriro ekunze muZimbabwe
+        1:
+          title: Zimbabwe NDC
+          description: Dzidza kuti NDCs chii uye hurongwa hwekudzikisa magreenhouse gases
+        2:
+          title: Mabasa muNDC neNAP
+          description: Nzwisisa mabasa emapoka muZimbabwe NDCs neNAP
+        3:
+          title: Mapoka Akakosha
+          description: Dzidza maitiro ekubatanidza mapoka akakosha mukuitwa kwemamiriro
+        4:
+          title: Mikakana yeGreen Economy
+          description: Dzidza nezvemikana yemapoka aya mune green economy
+        #        5:
+        #          title: Quizzes & Challenges
+        #          description: Test your knowledge on climate change and win prizes
+        6:
+          title: Zvinhu zveKushandisa
+          description: Ipa mhinduro uye kuwana zviwanikwa zvekuchinja kwemamiriro ekunze
+        7:
+          title: Sarudza Mutauro
+          description: Dzokera kumenu huru uye sarudza mutauro
+  routes:
+    0: "UNDERSTAND_CLIMATE_CHANGE_SHO"
+    1: "ZIMBABWE_NDC_SHO"
+    2: "ROLES_IN_NDC_NAP_SHO"
+    3: "INVOLVING_KEY_GROUPS_SHO"
+    4: "GREEN_ECONOMY_OPPS_SHO"
+    5: "QUIZZES_CHALLENGES_SHO"
+    6: "FEEDBACK_RESOURCES_SHO"
+    7: "MAIN_MENU"
+

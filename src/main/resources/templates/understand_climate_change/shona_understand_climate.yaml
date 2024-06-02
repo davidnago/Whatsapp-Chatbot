@@ -1,0 +1,133 @@
+"UNDERSTAND_CLIMATE_CHANGE_SHO":
+  type: list
+  prop: understand_climate_sho
+  message:
+    title: "Mamiriro ekunze"
+    body: "Ndapota sarudza nyaya yekuchinja kwemamiriro ekunze kubva pane zviri pazasi"
+    button: "Sarudza"
+    sections:
+      "Shona Menu Options":
+        0:
+          title: Zvinokonzera
+          description: Dzidza pamusoro pezvinokonzeresa kusanduka kwemamiriro ekunze
+        1:
+          title: Impact paZimbabwe
+          description: Dzidza nezve kushanduka kwemamiriro ekunze muZimbabwe
+        3:
+          title: Nyaya Dzidzo
+          description: Dzidza nezvenyaya dzezvidzidzo zvekushanduka kwemamiriro ekunze
+        4:
+          title: Menyu huru
+          description: Dzokera kumenyu huru
+
+  routes:
+    0: "CAUSES_SHO"
+    1: "IMPACT_ON_ZIMBABWE_SHO"
+    3: "CASE_STUDIES_SHO"
+    4: "SHONA_MENU"
+
+
+"CAUSES_SHO":
+  type: button
+  message:
+    title: "Zvinokonzera Kuchinja"
+    body: "Kuchinja kwemamiriro ekunze inyaya iri kunetsa inosundwa nemabasa evanhu sekupisa mafuta ezvicherwa uye kuparadzwa kwemasango, zvichikonzera kuburitswa kwegasi regreenhouse, kudziya kwepasi rose, uye kushanduka kwemamiriro ekunze. Mamiriro ekunze anotsanangura mamiriro ekunze panguva yakatarwa, nepo mamiriro ekunze ari avhareji yemakore makumi matatu. Kuchinja kwemamiriro ekunze kunosanganisira shanduko nekuda kwemaitiro echisikigo kana evanhu. Mitigation inoderedza kana kuwedzera greenhouse gasi masosi nekunyura, ukuwo kuchinjika kunogadzirisa masisitimu kuti ave nepakati kukuvadza kana kushandisa mikana. Resilience ndiko kugona kwemasisitimu kutora nyonganiso uchichengeta mabasa. Kunzwisisa pfungwa idzi kwakakosha pakurwisa kushanduka kwemamiriro ekunze."
+    buttons:
+      - Dzokera
+  routes:
+    "return": UNDERSTAND_CLIMATE_CHANGE_SHO
+
+"IMPACT_ON_ZIMBABWE_SHO":
+  type: button
+  message:
+    title: "Impact paZimbabwe"
+    body: "ZVINHU ZVINOITIKA MAKAMBERIKO:\n
+    -Kuchinja kwemamiriro ekunze\n
+    -Kuwedzera frequency uye kuomarara kweakanyanya mamiriro ekunze\n
+    - Shanduko mumwaka yekukura nematunhu\n
+    - Shanduko mumhando yemvura uye huwandu \n
+    - Shanduko mukugoverwa kwemarudzi uye kuwanda\n
+    - Kukwira kushoma uye tembiricha yepamusoro\n
+    - Kuwedzera njodzi yezvirwere\n\n
+    SOCIO-ECONOMIC RESOURCES AND MAKATA AKAKOSHA:\n
+    - Zviwanikwa zvemvura\n
+    - Zvekurima nemasango\n
+    - Kuchengetedzwa kwechikafu\n
+    - Hutano hwevanhu\n
+    - Zvivakwa (semuenzaniso zvekufambisa, nharaunda yakavakirwa)\n
+    - Kugara: kutamiswa kwevagari uye kurasikirwa nemararamiro\n
+    - Indasitiri uye simba\n
+    -Kupindura nenjodzi uye kupora (DRR)"
+    buttons:
+      - Dzokera
+  routes:
+    "return": UNDERSTAND_CLIMATE_CHANGE_SHO
+
+"CASE_STUDIES_SHO":
+  type: list
+  prop: case_studies_sho
+  message:
+    title: "Sarudza Nyaya Yokudzidza"
+    body: "Sarudza Nyaya Yokudzidza"
+    button: "Sarudza"
+    sections:
+      "Shona Menu Options":
+        0:
+          title: Cyclone IDAI
+          description: Dzidza nezvematambudziko eCyclone IDAI muZimbabwe
+        1:
+          title: Elnino yakonzera kupisa
+          description: Dzidza pamusoro pezvakakonzeresa kusanaya kwemvura
+        3:
+          title: Dzokera
+          description: Dzokera kune yakapfuura menyu
+
+  routes:
+    0: "CYCLONE_IDAI_SHO"
+    1: "ELNINO_INDUCED_DROUGHTS_SHO"
+    3: "UNDERSTAND_CLIMATE_CHANGE_SHO"
+
+"CYCLONE_IDAI_SHO":
+  type: button
+  message:
+    title: "Cyclone IDAI"
+    body: "Nyaya Yenyaya: Cyclone Idai - Kuparadza muMozambique, Malawi, Zimbabwe\n\n
+    Kurume 2019: Cyclone Idai, dutu rine simba rinopisa, rakawira muMozambique, rikaparadza Mozambique, Malawi, neZimbabwe.\n\n
+    Impact:\n
+    - Rufu: Kupfuura 1,300 hupenyu hwakarasika.\n
+    - Kuparara: Dzimba, zvivakwa, uye zvirimwa zvaparadzwa nemafashamu uye kukoromoka kwevhu.\n
+    - Mamirioni Akabatwa: Mamirioni akasiiwa asina pekugara, akatarisana nekushaya chikafu uye kubuda kwezvirwere\n\n
+    Zvikonzero:\n
+    - Tembiricha yegungwa inodziya yakakuchidzira kusimba kwedutu.\n
+    - Kutemwa kwemasango kwakawedzera mafashamo uye kuondomoka kwevhu.\n\n
+    Zvidzidzo Zvakadzidzwa:\n
+    - Kudiwa kwekutonga kwakasimba kwenjodzi & nzira dzekugadzirisa mamiriro ekunze.\n
+    - Kukosha kwekutanga yambiro masisitimu uye kugadzirira nharaunda.\n
+    - Kuvaka kusimba munharaunda dziri munjodzi.\n\n
+    
+    Cyclone Idai inoshanda sechiyeuchidzo chakasimba chemutengo wevanhu wekushanduka kwemamiriro ekunze uye kukosha kwekugadzirira."
+    buttons:
+      - Dzokera
+  routes:
+    "dzokera": CASE_STUDIES_SHO
+
+"ELNINO_INDUCED_DROUGHTS_SHO":
+  type: button
+  message:
+    title: "Elnino Droughts"
+    body: "Zvigwaro:\n
+    -Kunaya kwakadzikira: Zvirimwa zvinokundikana, zvichikonzera kusachengeteka kwechikafu uye kushomeka kwekudya kunovaka muviri\n
+    -Kushomeka kweMvura: Kuwanikwa kushoma kwemvura yakachena yekunwa uye yehutsanana.\n
+    Zvikonzero:\n
+    - Kumbundirwa Kunodziya kweEl Niño: Kudziya kwePacific kunovhiringa mamiriro ekunze pasi rose, zvichikonzera kusanaya kwemvura muZimbabwe.\n
+    - Kuchinja Mapeteni eMvura: Hunyoro hushoma hunosvika kuMabvazuva neKumaodzanyemba kweAfrica, zvichikonzera kusanaya kwemvura.\n
+    - Kuwedzera Tembiricha: Kuwedzera kwemvura kunopfungaira kunoomesa ivhu.\n\n
+    Zvidzidzo Zvakadzidzwa:\n
+    - Kudiwa kwekutonga kwakasimba kwenjodzi & nzira dzekugadzirisa mamiriro ekunze.\n
+    - Kukosha kwekutanga yambiro masisitimu uye kugadzirira nharaunda.\n
+    - Kuvaka kusimba munharaunda dziri munjodzi.\n\n  
+    Kusanaya kwemvura muZimbabwe kweEl Niño kunoburitsa kukosha kwekugadzirisa mamiriro ekunze, zvichitarisa nyaya yekuchengetedzwa kwemvura uye kurima kwakasimba kuitira kuti pave nechikafu pamwe nekutsigira raramo yekumaruwa."
+    buttons:
+      - Dzokera
+  routes:
+    "dzokera": CASE_STUDIES_SHO

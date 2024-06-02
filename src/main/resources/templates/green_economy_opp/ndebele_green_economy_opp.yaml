@@ -1,0 +1,13 @@
+"GREEN_ECONOMY_OPPS_NDE":
+  type: button
+  message:
+    title: "Amathuba eGreen Economy"
+    body: "Ukuvula Amathuba Emnothweni Oluhlaza\n\n
+    - Intsha: Yamukela imisebenzi yamandla avuselelekayo, ezolimo esimeme, kanye ne-eco-tourism. Zuza amakhono kubuchwepheshe obuluhlaza, ukongiwa kwemvelo, kanye nemfundo yemvelo.\n
+    - Abesifazane: Bahamba phambili emabhizinisini e-eco-entrepreneurship afana nokulima okuphilayo, imfashini esimeme, kanye nokukhiqizwa kwemikhiqizo eco-friendly. Zibandakanye kumaphrojekthi wokongiwa kwemvelo, ezinhlelweni zezingadi zomphakathi, nokuphathwa kwebhizinisi eliluhlaza.\n
+    - Abantu Abakhubazekile: Shayela ukusungulwa kwezixazululo zobuchwepheshe obuluhlaza, okuhlangenwe nakho okufinyeleleka kwe-eco-tourism, kanye nokuhlelwa kwamadolobha okubandakanya bonke. Faka isandla kumasevisi ezokuthutha alungele imvelo, ucwaningo lwamandla avuselelekayo, kanye nokumela imvelo.\n
+    Ngokusebenzisa lawa mathuba, singakha umnotho othuthukisa imvelo ochumayo, obandakanya wonke umuntu, futhi oqinile wawo wonke umuntu."
+    buttons:
+      - Buyela
+  routes:
+    "buyela": NDEBELE_MENU

@@ -1,0 +1,136 @@
+"UNDERSTAND_CLIMATE_CHANGE_NDE":
+  type: list
+  prop: understand_climate_nde
+  message:
+    title: "Ushintsho Lwezulu"
+    body: "Sicela ukhethe isihloko kulezi zinketho ezingezansi"
+    button: "Khetha"
+    sections:
+      "English Menu Options":
+        0:
+          title: Izimbangela
+          description: Funda ngezimbangela zokuguquguquka kwesimo sezulu eZimbabwe
+        1:
+          title: Umthelela eZimbabwe
+          description: Funda ngomthelela wokuguquka kwesimo sezulu eZimbabwe
+        3:
+          title: amaCase Studies
+          description: Funda ngezifundo zokuguquguquka kwesimo sezulu eZimbabwe
+        4:
+          title: Imenyu Eyinhloko
+          description: Buyela kumenyu eyinhloko
+
+  routes:
+    0: "CAUSES_NDE"
+    1: "IMPACT_ON_ZIMBABWE_NDE"
+    3: "CASE_STUDIES_NDE"
+    4: "NDEBELE_MENU"
+
+#CAUSES
+"CAUSES_NDE":
+  type: button
+  message:
+    title: "Izimbangela "
+    body: "Ukushintsha kwesimo sezulu kuyindaba ecindezelayo eqhutshwa imisebenzi yabantu efana nokushiswa kwezinto ezimbiwa phansi kanye nokugawulwa kwamahlathi, okuholela ekukhishweni okuphezulu kwamagesi abamba ukushisa, ukufudumala kwembulunga yonke kanye nokushintsha kwesimo sezulu. Isimo sezulu sichaza umkhathi ngesikhathi esithile, kanti isimo sezulu siyisilinganiso esingaphezu kweminyaka engama-30. Ukushintsha kwesimo sezulu kubandakanya izinguquko ngenxa yezenzo zemvelo noma zomuntu. Ukunciphisa kunciphisa noma kuthuthukisa imithombo namasinki egesi ebamba ukushisa, kuyilapho ukuzivumelanisa nakho kulungisa amasistimu ukuze alinganisele ukulimala noma ukuxhaphaza amathuba. Ukuqina amandla amasistimu okumunca ukuphazamiseka ngenkathi egcina imisebenzi. Ukuqonda le miqondo kubalulekile ekulweni nokuguquguquka kwesimo sezulu."
+    buttons:
+      - Buyela
+  routes:
+    "buyela": UNDERSTAND_CLIMATE_CHANGE_NDE
+
+
+#  IMPACT_ON_ZIMBABWE
+"IMPACT_ON_ZIMBABWE_NDE":
+  type: button
+  message:
+    title: "Umthelela eZimbabwe"
+    body: "IMITHELELA YEMVELO:\n
+    - Ushintsho kumaphethini wesimo sezulu\n
+    - Imvamisa eyengeziwe kanye nokuqina kwezehlakalo zesimo sezulu esibi kakhulu\n
+    - Izinguquko ezinkathini ezikhulayo neziyingi\n
+    - Izinguquko kukhwalithi yamanzi kanye nenani\n
+    - Izinguquko ekusabalaliseni kwezinhlobo nensada\n
+    - Ukwenyuka kwamazinga okushisa amancane naphezulu\n
+    - Ukwanda kwengozi yezifo\n\n
+    IZINSIZATHU ZOMNOTHO NEMIKHAKHA ETHINELEKILE:\n
+    - Izinsiza zamanzi\n
+    - Ezolimo namahlathi\n
+    - Ukuvikeleka kokudla\n
+    - Impilo yomuntu\n
+    - Ingqalasizinda (isb. ezokuthutha, indawo eyakhelweyo)\n
+    - Ukuhlaliswa kwabantu: ukufuduka kwezakhamuzi kanye nokulahlekelwa yimpilo\n
+    - Imboni namandla\n
+    - Ukusabela kwenhlekelele kanye nokululama (DRR)"
+    buttons:
+      - Buyela
+  routes:
+    "buyela": UNDERSTAND_CLIMATE_CHANGE_NDE
+
+#  CASE_STUDIES
+"CASE_STUDIES_NDE":
+  type: list
+  prop: case_studies_nde
+  message:
+    title: "Khetha i-Case Study"
+    body: "Khetha isifundo secala kuluhlu olungezansi"
+    button: "Khetha"
+    sections:
+      "Ndebele Menu Options":
+        0:
+          title: Cyclone IDAI
+          description: Funda ngemithelela yeCyclone IDAI eZimbabwe
+        1:
+          title: Ukoma okudalwe yi-ElNiño
+          description: funda ngokoma okudalwe yi-El Niño eZimbabwe
+        3:
+          title: Buyela
+          description: Buyela kumenyu engemva
+
+  routes:
+    0: "CYCLONE_IDAI_NDE"
+    1: "ELNINO_INDUCED_DROUGHTS_NDE"
+    3: "UNDERSTAND_CLIMATE_CHANGE_NDE"
+
+"CYCLONE_IDAI_NDE":
+  type: button
+  message:
+    title: "Cyclone IDAI"
+    body: "Indaba eyisibonelo: I-Cyclone Idai - Ukucekeleka phansi e-Mozambique, Malawi, Zimbabwe\n\n
+    Mashi 2019: I-Cyclone Idai, isiphepho esinamandla se-tropical, sawela e-Mozambique, sadala umonakalo e-Mozambique, Malawi, nase-Zimbabwe.\n\n
+    Umthelela:\n
+    - Ukufa: Kulahlekelwe izimpilo ezingaphezu kuka-1,300.\n
+    - Izigidi Ezithintekile: Izigidi zishiywe dengwane, zibhekene nokuntuleka kokudla nokuqubuka kwezifo\n\n
+    Izimbangela:\n
+    - Amazinga okushisa olwandle afudumele abhebhethekisa amandla esiphepho.\n
+    - Ukugawulwa kwamahlathi kubhebhethekise izikhukhula nokudilika kwenhlabathi.\n\n
+    Izifundo Ezifundiwe:\n
+    - Isidingo sokulawulwa kwezinhlekelele okuqinile namasu okuzivumelanisa nesimo sezulu.\n
+    - Ukubaluleka kwezinhlelo zokuxwayisa kusenesikhathi kanye nokulungela umphakathi.\n
+    - Ukwakha ukuqina emiphakathini esengozini.\n\n
+    
+    I-Cyclone Idai isebenza njengesikhumbuzo esiqinile sezindleko zomuntu zokushintsha kwesimo sezulu kanye nokubaluleka kokulungela."
+    buttons:
+      - Buyela
+  routes:
+    "buyela": CASE_STUDIES_NDE
+
+"ELNINO_INDUCED_DROUGHTS_NDE":
+  type: button
+  message:
+    title: "Ukoma okudalwe yi-El Niño"
+    body: "Ukubamba kuka-El Niño: Izomiso Zihlasela iSouthern Africa\n\n
+    Umthelela:\n
+    - Ukwehla kwemvula: Ukwehluleka kwezilimo kuholela ekuphepheni kokudla kanye nokungondleki.\n
+    - Ukuswela amanzi: Ukuntuleka kokuthola amanzi ahlanzekile okuphuza nokuhlanzeka.\n
+    - Umthwalo wezezimali: Ukulahlekelwa yimizamo yokuziphilisa kanye nokukhiqiza kwezolimo.\n\n
+    Izimbangela:\n
+    - Ukushintsha kwezimvula: Amanzi amancane afika eMpumalanga naseNingizimu Africa, kuholela ezomisweni.\n
+    - Izinga lokushisa eliphezulu: Ukumuka kwamanzi okwandayo kwenza umhlabathi womile kakhulu.\n\n
+    Izifundo Ezifundiwe:\n
+    - Isidingo samasu aqinile okulawulwa kweengozi kanye nokuzivumelanisa nezimo zezulu.\n
+    - Ukubaluleka kwezinhlelo zokuqapha kanye nokulungela kwemiphakathi.\n
+    - Ukwakha ukumelana emphakathini abuthaka.\n\n  
+    Izomiso zase-El Niño eZimbabwe ziveza isidingo sokuzivumelanisa nezimo zezulu, kugxilwe ekuqinisekiseni amanzi kanye nezolimo ezimelana nezimo ezimbi ukuze kuqinisekiswe ukuphepha kokudla kanye nokuxhasa izimpilo zasemakhaya."
+    buttons:
+      - Buyela
+  routes:
+    "buyela": CASE_STUDIES_NDE

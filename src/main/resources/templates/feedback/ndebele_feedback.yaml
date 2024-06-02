@@ -1,0 +1,10 @@
+"FEEDBACK_RESOURCES_NDE":
+  type: button
+  message:
+    title: "Impendulo Nezinsiza"
+    body: "Ukuze uthole impendulo ngemizamo yethu noma ukwabelana ngemicabango yakho, sicela uvakashele ku-https://cybersecdigital.com/contact.html. Siyakwazisa ukufaka kwakho futhi silwela ukuqhubeka sithuthukisa amasevisi ethu.\n
+  Ukuze uthole izinsiza ezibalulekile nezinto zokufundisa, hlola i-https://cybersecdigital.com/education.html. Kungakhathaliseki ukuthi ufuna imininingwane yokushintsha kwesimo sezulu, okuqukethwe kwezemfundo, noma amathuba okuthuthukisa amakhono, uzothola izinsiza eziwusizo zokuthuthukisa ulwazi lwakho namakhono."
+    buttons:
+      - Buyela
+  routes:
+    "buyela": NDEBELE_MENU

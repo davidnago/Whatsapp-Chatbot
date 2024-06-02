@@ -1,0 +1,57 @@
+"ROLES_IN_NDC_NAP_NDE":
+  type: list
+  prop: roles_in_ndc_nap_nde
+  message:
+    title: "Izindima ku-NDC naku-NAP"
+    body: "Qonda indima yamaqembu kumaNDC eZimbabwe kanye leNAP. Sicela ukhethe iqembu ohlwini olungezansi"
+    button: "Select"
+    sections:
+      "English Menu Options":
+        0:
+          title: Abafazi
+          description: funda ngendima yabafazi
+        1:
+          title: Izingane Nentsha
+          description: Funda ngendima yezingane nentsha
+        2:
+          title: Abantu Abakhubazekile
+          description: Funda ngendima yabantu abakhubazekile
+        3:
+          title: Imenyu Yenhloko
+          description: buyela kumenyu yenhloko
+
+  routes:
+    0: "WOMEN_NDE"
+    1: "CHILDREN_AND_YOUTH_NDE"
+    2: "PEOPLE_WITH_DISABILITIES_NDE"
+    3: "NDEBELE_MENU"
+
+"WOMEN_NDE":
+  type: button
+  message:
+    title: "Indima yabafazi eNDC/NAP"
+    body: "Omkhaya bakwethu bamasiko banasiphambeko ekuthuthukiseni kwesimo sezulu, ngokwengqondo emasikweni amathulukuthi lapha eZimbabwe, lapho kungabaqoqoba ukuphindelela kwemithi, amanzi, nokuphila kwesikhathi. Ukubhekana nabantu abamukelwa empumelelweni kwezinketho kufanele kwenze ukuthi kube nokunye okungenasikhathi kanye nezidingo zomkhakha esivikelwe ngcono. Ukunikezela kwabesifazane ngemfundo nokuthuthukiswa kwawo kusiza ekwakheni isisindo. Kungaba wena oqondisi, onobudala, oqhubekezi, oqondisi, nokweluswa. Abesifazane babeke izifundo zombuso zomhlaba ozayo, baphinde bazise izindawo. Ukuhlaziywa kwabesifazane ekwakhiweni kwamaqembu athuthukisiweyo asehlakanisayo kube nokunye kwamanje kanye neziphetho."
+    buttons:
+      - Buyela
+  routes:
+    "buyela": ROLES_IN_NDC_NAP_NDE
+
+"CHILDREN_AND_YOUTH_NDE":
+  type: button
+  message:
+    title: "Izingane Nentsha"
+    body: "Izintombi nabafana bakhulelwa ngezimo ezinengi ekwenza ukuthuthukiswa kwesimo sezulu, ngokwengqondo kuleli zwe, eZimbabwe. Ukubabonakala kwabo kungenzeka kube ngokufanele kwezinsiza ekwenza imithetho eqinisekisiwe yendlu yokufuna amalungelo (NDCs) kanye nePlan yeNkululeko Yendlu. Izintombi nabafana bangababonakala emisebenzi yokukhulisa indawo njengalokhukhulisa imithi, ukulawula imiphahlo, kanye nokwenza imiphakathi. Bangaba nesivumelwano esimangalisayo ekwenzeni izinto ekwakhiweni izimboni zomkhathi uma befisa ukwenza ukuthuthukiswa ekwenzeni isithakazelo sesondlo noma ekwenzeni ukuthuthukiswa kwemisebenzi. Izintombi nabafana babezinhle kakhulu ngezifo nokuvamile, baphakamisa izifundo kanye nezomcimbi, baphumelele ekwakhiweni amathuluzi amasha nokufaka izinto ezinengi ekuthuthukiseni kwesimo sezulu. "
+    buttons:
+      - Buyela
+  routes:
+    "return": ROLES_IN_NDC_NAP_NDE
+
+"PEOPLE_WITH_DISABILITIES_NDE":
+  type: button
+  message:
+    title: "Abantu Abakhubazekile"
+    body: "Abantu abanayo amasiko esilahliwe (PWDs) banesiphiwo esimangalisayo ekwakhiweni kwezimo sezulu eZimbabwe kanye nokwenza kwezinqubo zokwenza iziqu kwezizwe (NDCs). Ukubabonakala kwabo kufakaza ukuthi izidingo zabo ezithile zibhekwe. PWDs bangaba nesivumelwano esimangalisayo ekwenzeni izindlela zokufinyelela ezimangalisayo zezimo sezulu, baphakamise ukwazi mayelana nezinkinga zabo, futhi bahlanganise izinqubo zabo eziningi zomkhakha ekwenzeni iziqu kwezimo sezulu. Bangakwazi futhi ukwenza phakathi ekwakhiweni kweziqu kwezimo sezulu kanye nokuchitha isicelo samathuba ezomkhiqizo kanye nokufunda nokuthuthukisa ubukeka kwabo. PWDs banamathuba okwenza izindlela zokwenza izinkampani zezimo sezulu futhi bayakwazi ukusiza ekuthuthukiseni kanye nokuthula kwamathuba kabo."
+    buttons:
+      - Buyela
+  routes:
+    "return": ROLES_IN_NDC_NAP_NDE

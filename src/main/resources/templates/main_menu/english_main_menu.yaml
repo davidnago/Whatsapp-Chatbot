@@ -22,12 +22,15 @@
         4:
           title: Green Economy Opps
           description: Learn about opportunities for these groups in the green economy
-        5:
-          title: Quizzes & Challenges
-          description: Test your knowledge on climate change and win prizes
+#        5:
+#          title: Quizzes & Challenges
+#          description: Test your knowledge on climate change and win prizes
         6:
           title: Feedback & Resources
           description: Give feedback and access climate change resources
+        7:
+          title: Select Language
+          description: Return to the main menu and select a language
   routes:
     0: "UNDERSTAND_CLIMATE_CHANGE_ENG"
     1: "ZIMBABWE_NDC_ENG"
@@ -36,4 +39,5 @@
     4: "GREEN_ECONOMY_OPPS_ENG"
     5: "QUIZZES_CHALLENGES_ENG"
     6: "FEEDBACK_RESOURCES_ENG"
+    7: "MAIN_MENU"
 

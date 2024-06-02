@@ -1,0 +1,14 @@
+"INVOLVING_KEY_GROUPS_NDE":
+  type: button
+  message:
+    title: "Amaqembu Abalulekile"
+    body: "Ukubandakanya Intsha, Abesifazane, kanye Nabantu Abakhubazekile Ezenzweni Zesimo Sezulu: Umbono WaseZimbabwe\n\n
+   EZimbabwe, ukuthuthukiswa kwentsha, abesifazana, kanye labaphila lobugoga kuqakathekile ekuthuthukiseni intuthuko. Nazi izinyathelo ezingenziwa zokubabandakanya:\n
+    - Ukutshala Izihlahla Nokubuyisela: Hlela imicimbi yokutshala izihlahla ukuze unciphise ukushintsha kwesimo sezulu futhi usekele imvelo yendawo.\n
+    - I-Advocate Yezinqubomgomo Zesimo Sezulu: Joyina izinhlangano eziholwa yintsha, zibandakanye ekubuseni, futhi ucele izinqubomgomo ezisimeme.\n
+    - Sekela Ukuziphilisa Okusimeme: Khuthaza amabhizinisi alungele imvelo njengokulima okuphilayo kanye nezinhlelo zamandla avuselelekayo.\n\n
+    Ukubalwa kwezenzo ezincane: ibhayisikili esikhundleni sokushayela, sebenzisa kabusha, futhi usekele amabhizinisi endawo alungele imvelo. Ngokubambisana, masakhe ikusasa eliqinile."
+    buttons:
+      - Buyela
+  routes:
+    "buyela": NDEBELE_MENU

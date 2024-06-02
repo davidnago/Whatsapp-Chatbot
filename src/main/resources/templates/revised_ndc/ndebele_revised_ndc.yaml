@@ -1,0 +1,16 @@
+"ZIMBABWE_NDC_NDE":
+  type: button
+  message:
+    title: "amaNDC eZimbabwe"
+    body: "Ayini ama-NDC?\n\n
+    Ama-NDC ayizinhlelo zikazwelonke zesimo sezulu ezichaza izinjongo zezwe zokunciphisa ukukhishwa kwesisi esingcolisa umoya kanye nokuvumelana nokushintsha kwesimo sezulu. I-NDC yaseZimbabwe ihlanganisa izinhloso zokunciphisa ukukhishwa kwegesi, ukukhulisa amandla avuselelwe, kanye nokuthuthukisa ukumelana nesimo sezulu.
+    . I-NDC iyithuluzi elibalulekile lokufinyelela izinjongo zeSivumelwano saseParis kanye nokubhekana nokushintsha kwesimo sezulu.\n\n 
+    I-NDC ebuyekeziwe\n\n
+
+    I-1st NDC (2015): Kuhloswe ukunciphisa ngo-33% ukukhishwa kwesisi esibamba ukushisa, ngokugxila emkhakheni wamandla.\n
+    I-NDC yamanje: Ibeka okuhlosiwe okulindelwe okwengeziwe kokunciphisa ngo-40% ukukhishwa kwegesi ebamba ukushisa kuwo wonke umnotho.\n
+    Lokhu kukhombisa ukuzinikela kweZimbabwe ekwehliseni izinga layo lekhabhoni kanye nokwakha ikusasa elisimeme."
+    buttons:
+      - Buyela
+  routes:
+    "buyela": NDEBELE_MENU

@@ -1,0 +1,43 @@
+"NDEBELE_MENU":
+  type: list
+  prop: ndebele_menu
+  message:
+    title: "Imenyu Eyinhloko"
+    body: "Siyabonga ngokukhetha ulimi. Khetha isihloko kuluhlu olungezansi."
+    button: "Khetha"
+    sections:
+      "English Menu Options":
+        0:
+          title: Ushintsho Lwezulu
+          description: Funda Ngoshintsho Kwesimo Sezulu eZimbabwe
+        1:
+          title: Zimbabwe NDC
+          description: Funda ukuthi ayini ama-NDC kanye nezinhlelo zeZimbabwe
+        2:
+          title: Izindima ku-NDC naku-NAP
+          description: Qondani izindima zezingane eZimbabwe ku-NDC naku-NAP
+        3:
+          title: Amaqembu Abalulekile
+          description: Ukubandakanya Amaqembu Abalulekile ekwenzeni imisebenzi yezulu eZimbabwe
+        4:
+          title: Amathuba eGreen Economy
+          description: funda ngamathuba okwenziwa abantu abalulekile eGreen Economy
+#        5:
+#          title: Imibuzo nezinselele
+#          description: Hlola ulwazi lwakho ngokushintsha kwesimo sezulu futhi uwine imiklomelo
+        6:
+          title: Impendulo Nezinsiza
+          description: Nikeza impendulo futhi ufinyelele izinsiza zokuguquguquka kwesimo sezulu
+        7:
+          title: Khetha Ulwimi
+          description: Buyela kumenyu eyinhloko
+  routes:
+    0: "UNDERSTAND_CLIMATE_CHANGE_NDE"
+    1: "ZIMBABWE_NDC_NDE"
+    2: "ROLES_IN_NDC_NAP_NDE"
+    3: "INVOLVING_KEY_GROUPS_NDE"
+    4: "GREEN_ECONOMY_OPPS_NDE"
+    5: "QUIZZES_CHALLENGES_NDE"
+    6: "FEEDBACK_RESOURCES_NDE"
+    7: "MAIN_MENU"
+

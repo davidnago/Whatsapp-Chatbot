@@ -24,4 +24,16 @@ public class ConfigEntity implements Serializable {
     private String hubToken;
     private String phoneNumberId;
     private String apiVersion = "v18.0";
+
+    @Override
+    public String toString() {
+        return "ConfigEntity{" +
+                "id=" + id +
+                ", accessToken='" + accessToken + '\'' +
+                ", hubToken='" + hubToken + '\'' +
+                ", phoneNumberId='" + phoneNumberId + '\'' +
+                ", apiVersion='" + apiVersion + '\'' +
+                '}';
+    }
 }
+

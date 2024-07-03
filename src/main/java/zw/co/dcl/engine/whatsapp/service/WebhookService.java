@@ -78,9 +78,10 @@ public class WebhookService {
 
     public ConfigEntity getConfig() {
         if (configRepository.count() != 0) {
-            return configRepository.findAll().iterator().next();
+            ConfigEntity config = configRepository.findAll().iterator().next();
+            log.info("WhatsApp config found: [{}]", config);
+            return config;
         }
-
         log.error("No WhatsApp config found: [{}]. Consider adding configs via POST: /webhook/config", configRepository.count());
 
         return new ConfigEntity(

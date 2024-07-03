@@ -28,6 +28,8 @@ public class WebhookController {
 
     @PostMapping
     private ResponseEntity<?> webhookHandler(@RequestBody Object payload, HttpServletRequest request) {
+        System.out.println(payload);
+        System.out.println(request);
         return ResponseEntity.ok(service.processWebhook(payload, request));
     }
 

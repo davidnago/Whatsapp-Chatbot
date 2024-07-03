@@ -10,8 +10,8 @@ import zw.co.dcl.engine.whatsapp.entity.dto.HookArgsRest;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-05-18T16:09:37+0200",
-    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 18.0.2.1 (Oracle Corporation)"
+    date = "2024-06-16T15:14:07+0200",
+    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.10 (Oracle Corporation)"
 )
 @Component
 public class EngineDtoMapperImpl extends EngineDtoMapper {
